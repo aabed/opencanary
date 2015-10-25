@@ -2,7 +2,7 @@ import simplejson as json
 import logging.config
 import socket
 import sys
-
+import hpfeds 
 from datetime import datetime
 from logging.handlers import SocketHandler
 from twisted.internet import reactor
